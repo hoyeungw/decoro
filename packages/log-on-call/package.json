@@ -1,0 +1,42 @@
+{
+  "name": "@decoro/log-on-call",
+  "version": "0.0.2",
+  "description": "a decorator that logs when class method or get property is called",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "pub": "npm publish",
+    "test": "node -r @babel/register test/test.index.js"
+  },
+  "dependencies": {
+    "@palett/says": "^0.3.3",
+    "@spare/deco": "^0.7.15",
+    "@spare/deco-vector": "^0.7.15",
+    "@spare/enum-brackets": "^0.7.15",
+    "@spare/enum-chars": "^0.7.15",
+    "@typen/enum-data-types": "^0.1.5",
+    "@valjoux/timestamp-pretty": "^0.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyeungw/decoro.git"
+  },
+  "keywords": [
+    "decoro",
+    "decorator",
+    "log",
+    "logged"
+  ],
+  "author": "Hoyeung Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoyeungw/decoro"
+  },
+  "homepage": "https://github.com/hoyeungw/decoro#readme"
+}
